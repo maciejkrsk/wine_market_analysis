@@ -1,0 +1,82 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "vivi",
+            "socketPath": "C:\\Users\\macie\\Desktop\\wine_project\\wine_market_analysis\\vivino_v2.db",
+            "database": "vivino_v2",
+            "username": "root",
+            "password": ""
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "vivi2",
+            "socketPath": "C:\\Users\\macie\\Desktop\\wine_project\\wine_market_analysis\\vivino_v2.db",
+            "database": "vivino_v2.db",
+            "username": "root",
+            "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "vivi3",
+            "socketPath": "C:\\Users\\macie\\Desktop\\wine_project\\wine_market_analysis\\vivino_v2.db",
+            "database": "vivino_v2.db",
+            "username": "root",
+            "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "vivi4",
+            "socketPath": "C:\\Users\\macie\\Desktop\\wine_project\\wine_market_analysis\\vivino_v2.db",
+            "database": "vivino_v2",
+            "username": "root",
+            "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "vivi5",
+            "socketPath": "C:\\Users\\macie\\Desktop\\wine_project\\wine_market_analysis\\vivino_v2.db",
+            "database": "vivino_v2.db",
+            "username": "root",
+            "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "vivi6",
+            "socketPath": "C:\\Users\\macie\\Desktop\\wine_project\\wine_market_analysis\\vivino_v2.db",
+            "database": "vivino_v2",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}
