@@ -14,15 +14,8 @@ We have been asked to create a market analysis based on data provided by Vivino,
 - General recommendations to improve the data provided
 
 
-## Installation DIY
-- Clone the git repository.
-- Import all the necessary components from the file "requirements.txt".
-- Run streamlit_app.py using command prompt and typing "streamlit run streamlit_app.py".
-- Navigate through the web browser that will open from the previous step.
-
 ## Main tools
 - Jupyter Notebook
-- Streamlit
 - Matplotlib
 
 ## Issues faced

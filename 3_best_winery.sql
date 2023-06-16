@@ -1,6 +1,6 @@
 --Prize for the best winery
 
-SELECT wineries.id, wineries.name, wines.ratings_average, SUM(wines.ratings_count)
+SELECT wineries.id, wineries.name, wines.ratings_average, SUM(wines.ratings_count) AS total_ratings
 FROM wineries
 JOIN wines
 ON wines.winery_id = wineries.id
@@ -10,3 +10,4 @@ GROUP BY wineries.name
 --assuming you actually have to buy the product to submit a rating,
 --it can be interpreted as wines_sold
 ORDER BY wines.ratings_count DESC
+LIMIT 3
